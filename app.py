@@ -26,7 +26,7 @@ class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer',
 
 @st.cache_resource
 def load_cifar_model():
-    model = load_model('cnn_cifar10_model.keras')  # Replace with your model path
+    model = load_model('cnn_cifar10_model_opt.keras')  # Replace with your model path
     return model
 
 # Load the model
